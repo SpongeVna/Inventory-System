@@ -1,0 +1,131 @@
+/* ===== Dashboard Cards ===== */
+.dashboard-card {
+  border: none;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.dashboard-card h5 {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.dashboard-card h3 {
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* ===== Sidebar Active Link ===== */
+.nav-link.active {
+  background-color: #007bff !important;
+  color: #fff !important;
+  border-radius: 5px;
+}
+
+/* ===== Table Styling ===== */
+.table-striped tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+/* ===== Buttons ===== */
+.btn-sm {
+  border-radius: 5px !important;
+}
+
+/* ===== Layout Fix ===== */
+.container {
+  max-width: 100%;
+}
+
+/* ===== User Management ===== */
+form .form-label {
+  font-weight: 500;
+}
+
+.table th, .table td {
+  vertical-align: middle;
+}
+
+.alert {
+  border-radius: 5px;
+}
+
+select.form-select {
+  padding: 8px;
+}
+
+/* ===== Sidebar ===== */
+.bg-light {
+  background-color: #f8f9fa9e !important;
+}
+
+.nav-link {
+  color: #333;
+  padding: 6px 10px;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+  background-color: #e9ecef;
+  color: #000;
+}
+
+.nav-link.text-danger:hover {
+  background-color: #f8d7da !important;
+  color: #842029 !important;
+}
+
+.fw-bold.text-primary {
+  color: #0d6efd !important;
+}
+
+/* ===== Modern UI Enhancements ===== */
+body {
+  background-color: #f9fafc;
+}
+
+h3, h2, h1 {
+  color: #212529;
+  font-weight: 600;
+}
+
+.btn {
+  border-radius: 6px;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.table {
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.table thead {
+  background: #007bff;
+  color: #fff;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f9fbff;
+}
+
+.card, .shadow-sm {
+  border-radius: 8px;
+}
+
+.nav-link.active {
+  background-color: #0d6efd !important;
+  color: #fff !important;
+  box-shadow: 0 2px 6px rgba(13, 110, 253, 0.4);
+}

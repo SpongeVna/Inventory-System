@@ -1,0 +1,62 @@
+Role : Admin
+Nama Lengkap: Administrator
+Username: admin
+Password: admin123
+
+Role : Admin
+Nama Lengkap: Ilyas Ramadhan
+Username: admin1
+Password: admin123
+
+Role : Admin
+Nama Lengkap: Mei Rahmawati
+Username: admin2
+Password: admin123
+
+Role : Admin
+Nama Lengkap: Simfrosa Gradiani
+Username: admin3
+Password: admin123
+
+Role : Operator
+Nama Lengkap: Novitasari
+Username: operator1
+Password: operator123
+
+Role : Operator
+Nama Lengkap: Imam Permana
+Username: operator2
+Password: operator123
+
+Role : Supplier
+Nama Lengkap: Rizki Aprillia Rasmana
+Username: supplier1
+Password: supplier123
+
+Role : Supplier
+Nama Lengkap: Nurfiki Faturohman
+Username: supplier2
+Password: supplier123
+
+Role : Supplier
+Nama Lengkap: Muhammad Rifqi Bayu Sasongko
+Username: supplier3
+Password: supplier123
+
+Role : Customer
+Nama Lengkap: Mizzu Fauzil Adhim
+Username: customer1
+Password: customer123
+
+Role : Customer
+Nama Lengkap: Iman Safari
+Username: customer2
+Password: customer123
+
+Role : Customer
+Nama Lengkap: Hendra Hermawan
+Username: customer3
+Password: customer123
+
+
+<?php require_once "../includes/auth_check.php"; require_role('operator'); require_once "../config/db.php"; include "../includes/header.php"; include "../includes/sidebar.php";

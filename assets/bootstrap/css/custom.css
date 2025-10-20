@@ -1,0 +1,58 @@
+:root {
+  --blue-jotun: #003366;
+  --orange-jotun: #f58220;
+  --red-accent: #c1121f;
+  --light-gray: #f8f9fa;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--light-gray);
+}
+
+/* Navbar */
+.bg-blur {
+  backdrop-filter: blur(8px);
+  background: rgba(255, 255, 255, 0.85);
+}
+
+/* Sidebar */
+.sidebar {
+  min-height: 100vh;
+  transition: width 0.3s;
+}
+.sidebar .nav-link {
+  color: #333;
+  padding: 10px 18px;
+  transition: all 0.2s;
+  font-weight: 500;
+}
+.sidebar .nav-link:hover {
+  background-color: var(--orange-jotun);
+  color: white;
+  border-radius: 8px;
+}
+.sidebar .nav-link.active {
+  background-color: var(--blue-jotun);
+  color: #fff;
+  border-radius: 8px;
+}
+
+/* Card Style */
+.card-stat {
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+.card-stat:hover {
+  transform: translateY(-5px);
+}
+
+.bg-gradient-blue { background: linear-gradient(135deg, #003366, #004b99); }
+.bg-gradient-green { background: linear-gradient(135deg, #198754, #28a745); }
+.bg-gradient-red { background: linear-gradient(135deg, #c1121f, #e63946); }
+.bg-gradient-orange { background: linear-gradient(135deg, #f58220, #ff9f40); }
+
+/* Responsive Sidebar Collapse */
+@media (max-width: 992px) {
+  body.sidebar-collapsed .sidebar { display: none; }
+}
